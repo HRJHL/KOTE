@@ -1,0 +1,18 @@
+[project]
+name = "kote-transformers"
+version = "0.1.0"
+description = "KOTE (Korean Online Toxicity Evaluation) with Hugging Face Transformers"
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=1.8.2",
+    "transformers>=4.30.0",
+    "datasets>=4.0.0",
+    "pytorch-lightning>=1.5.0",
+    "numpy",
+    "scikit-learn",
+    "jupyter",
+    "ipywidgets",
+]
+
+[tool.uv]
+python-version = "3.9"
